@@ -1,7 +1,6 @@
 {
   "name": "bis-gpa-calculator",
-  "homepage": "https://SaifZeus.github.io/BIS"
-
+"homepage": "https://saifzeus.github.io/BIS",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
