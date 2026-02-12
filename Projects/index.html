@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="AI Engineer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="/favicons/main.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+        </noscript>
+        <title>Saif Wael | Projects</title>
+        <link rel="stylesheet" href="/_astro/certificates.C8ok0cYR.css">
+        <style>
+            .nav-link[data-astro-cid-d6vcou2g] {
+                background: transparent;
+                color: #ccc;
+                font-size: .875rem;
+                font-weight: 400;
+                letter-spacing: .01em;
+                transition: all .4s cubic-bezier(.4,0,.2,1);
+                position: relative;
+                overflow: hidden
+            }
+
+            .nav-link[data-astro-cid-d6vcou2g]:hover {
+                color: #fff;
+                background: #ffffff0d;
+                transform: translateY(-1px)
+            }
+
+            .nav-link[data-astro-cid-d6vcou2g].active {
+                background: #1a1625;
+                color: #fff;
+                box-shadow: 0 0 20px 6px #a993fe4d,0 0 40px 12px #a993fe1a,inset 0 1px #ffffff1a;
+                border-radius: 2rem;
+                transform: translateY(-1px);
+                animation: activeGlow .6s ease-out
+            }
+
+            .nav-link[data-astro-cid-d6vcou2g].active:hover {
+                box-shadow: 0 0 25px 8px #a993fe66,0 0 50px 15px #a993fe26,inset 0 1px #ffffff26;
+                transform: translateY(-2px)
+            }
+
+            @keyframes activeGlow {
+                0% {
+                    box-shadow: 0 0 5px 2px #a993fe33,0 0 10px 4px #a993fe0d;
+                    transform: translateY(0) scale(.95)
+                }
+
+                50% {
+                    box-shadow: 0 0 30px 10px #a993fe66,0 0 60px 20px #a993fe33;
+                    transform: translateY(-1px) scale(1.02)
+                }
+
+                to {
+                    box-shadow: 0 0 20px 6px #a993fe4d,0 0 40px 12px #a993fe1a;
+                    transform: translateY(-1px) scale(1)
+                }
+            }
+
+            nav[data-astro-cid-d6vcou2g] {
+                box-shadow: 0 8px 32px #00000040,0 0 0 1px #ffffff14,inset 0 1px #ffffff0d;
+                border: 1px solid rgba(255,255,255,.1)
+            }
+
+            @media (max-width: 767px) {
+                nav[data-astro-cid-d6vcou2g] {
+                    width:96vw;
+                    left: 50%;
+                    top: auto;
+                    bottom: 1rem;
+                    transform: translate(-50%);
+                    padding: .3rem .5rem;
+                    background: #111112f2!important;
+                    backdrop-filter: blur(12px);
+                    border-radius: 1rem;
+                    border: 1px solid rgba(255,255,255,.15);
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch
+                }
+
+                nav[data-astro-cid-d6vcou2g]::-webkit-scrollbar {
+                    display: none
+                }
+
+                .nav-scroll-container[data-astro-cid-d6vcou2g] {
+                    width: 100%;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch
+                }
+
+                .nav-scroll-container[data-astro-cid-d6vcou2g]::-webkit-scrollbar {
+                    display: none
+                }
+
+                .nav-link[data-astro-cid-d6vcou2g] {
+                    font-size: .75rem;
+                    padding: .4rem .6rem;
+                    height: 2rem;
+                    text-align: center;
+                    white-space: nowrap
+                }
+
+                ul[data-astro-cid-d6vcou2g] {
+                    gap: .15rem;
+                    justify-content: center;
+                    width: 100%;
+                    flex-wrap: nowrap;
+                    padding: 0 .15rem
+                }
+
+                .nav-link[data-astro-cid-d6vcou2g].active {
+                    background: #a476ff33;
+                    box-shadow: 0 0 15px 2px #a476ff33,0 0 30px 4px #a476ff1a
+                }
+
+                .nav-link[data-astro-cid-d6vcou2g]:hover {
+                    background: #ffffff1a
+                }
+            }
+
+            @media (max-width: 480px) {
+                .nav-link[data-astro-cid-d6vcou2g] {
+                    font-size:.7rem;
+                    padding: .35rem .5rem
+                }
+            }
+
+            @media (max-width: 380px) {
+                nav[data-astro-cid-d6vcou2g] {
+                    width:98vw;
+                    padding: .25rem .4rem
+                }
+
+                .nav-link[data-astro-cid-d6vcou2g] {
+                    font-size: .65rem;
+                    padding: .3rem .4rem
+                }
+
+                ul[data-astro-cid-d6vcou2g] {
+                    gap: .1rem
+                }
+            }
+
+            :root {
+                --background: #101010;
+                --sec: #a476ff;
+                --white: #dfdfdf;
+                --white-icon: #f3f3f398;
+                --white-icon-tr: #f3f3f310
+            }
+
+            * {
+                font-family: montserrat,-apple-system,system-ui,sans-serif;
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0
+            }
+
+            *::-moz-selection {
+                background-color: var(--sec);
+                color: var(--background)
+            }
+
+            *::selection {
+                background-color: var(--sec);
+                color: var(--background)
+            }
+
+            ::-webkit-scrollbar {
+                width: 15px
+            }
+
+            ::-webkit-scrollbar-track {
+                background: var(--container);
+                border-radius: 30px
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: var(--background);
+                border-radius: 10px
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: var(--pink)
+            }
+
+            * {
+                scrollbar-width: thin;
+                scrollbar-color: var(--line) var(--container)
+            }
+        </style>
+    </head>
+    <body class="bg-[--background] px-4 sm:px-6 md:px-8 lg:px-20 xl:px-48 overflow-x-hidden">
+        <div class="flex justify-center w-full mt-4 sm:mt-6 md:mt-8" data-astro-cid-d6vcou2g>
+            <nav class="fixed left-1/2 top-8 z-[100] -translate-x-1/2 bg-[#111112] bg-opacity-20 border border-[#333] border-opacity-30 shadow-lg backdrop-blur-md backdrop-saturate-150 transition-all w-fit max-w-[95vw] rounded-full flex justify-center items-center py-2 px-6" style="background: rgba(17, 17, 18, 0.15); backdrop-filter: blur(20px) saturate(180%);" data-astro-cid-d6vcou2g>
+                <div class="nav-scroll-container" data-astro-cid-d6vcou2g>
+                    <ul class="flex w-full justify-center items-center gap-1 px-1" data-astro-cid-d6vcou2g>
+                        <li class="flex-shrink-0" data-astro-cid-d6vcou2g>
+                            <a href="/" class="nav-link relative flex items-center justify-center h-8 px-4 rounded-full text-sm font-normal text-white transition-all duration-300 ease-out" data-astro-cid-d6vcou2g>Home </a>
+                        </li>
+                        <li class="flex-shrink-0" data-astro-cid-d6vcou2g>
+                            <a href="/Certificates" class="nav-link relative flex items-center justify-center h-8 px-4 rounded-full text-sm font-normal text-white transition-all duration-300 ease-out" data-astro-cid-d6vcou2g>Certificates </a>
+                        </li>
+                        <li class="flex-shrink-0" data-astro-cid-d6vcou2g>
+                            <a href="#" class="nav-link relative flex items-center justify-center h-8 px-4 rounded-full text-sm font-normal text-white transition-all duration-300 ease-out" data-astro-cid-d6vcou2g>Projects </a>
+                        </li>
+                        <li class="flex-shrink-0" data-astro-cid-d6vcou2g>
+                            <a href="/_astro/CV.pdf" class="nav-link relative flex items-center justify-center h-8 px-4 rounded-full text-sm font-normal text-white transition-all duration-300 ease-out" data-astro-cid-d6vcou2g>Resume </a>
+                        </li>
+                        <li class="flex-shrink-0" data-astro-cid-d6vcou2g>
+                            <a href="/#contact" class="nav-link relative flex items-center justify-center h-8 px-4 rounded-full text-sm font-normal text-white transition-all duration-300 ease-out" data-astro-cid-d6vcou2g>Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <script type="module">
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll("section[id]");
+                const a = document.querySelectorAll("nav a")
+                  , u = (e, r=!1) => {
+                    const c = window.location.pathname;
+                    a.forEach(o => {
+                        const s = o.getAttribute("href");
+                        if (s === c || s === c + "/")
+                            r ? o.classList.add("active") : setTimeout( () => o.classList.add("active"), 50);
+                        else {
+                            if (c === "/" && s?.startsWith("/#"))
+                                return;
+                            o.classList.remove("active")
+                        }
+                    }
+                    )
+                }
+                ;
+                if (a.forEach(e => {
+                    e.addEventListener("click", function(r) {
+                        const c = this.getAttribute("href");
+                        if (c?.startsWith("#")) {
+                            r.preventDefault();
+                            const o = c.substring(1)
+                              , s = document.getElementById(o);
+                            s && (a.forEach(i => i.classList.remove("active")),
+                            this.classList.add("active"),
+                            s.scrollIntoView({
+                                behavior: "smooth"
+                            }));
+                            return
+                        }
+                        if (c?.startsWith("/") && !c.includes(".pdf")) {
+                            r.preventDefault(),
+                            a.forEach(o => o.classList.remove("active")),
+                            this.classList.add("active"),
+                            document.body.style.opacity = "0.95",
+                            document.body.style.transition = "opacity 0.2s ease",
+                            setTimeout( () => {
+                                window.location.href = c
+                            }
+                            , 100);
+                            return
+                        }
+                    })
+                }
+                ),
+                window.location.pathname === "/") {
+                    const e = document.querySelector('nav a[href="/"]');
+                    e && e.classList.add("active");
+                    const r = i => {
+                        i.forEach(t => {
+                            t.isIntersecting && t.target.getAttribute("id")
+                        }
+                        ),
+                        a.forEach(t => t.classList.remove("active")),
+                        setTimeout( () => {
+                            e && e.classList.add("active")
+                        }
+                        , 50)
+                    }
+                      , c = new IntersectionObserver(r,{
+                        threshold: [.3, .5, .7],
+                        rootMargin: "-10% 0px -10% 0px"
+                    })
+                      , o = document.getElementById("contact");
+                    o && c.observe(o);
+                    let s;
+                    window.addEventListener("scroll", () => {
+                        clearTimeout(s),
+                        s = setTimeout( () => {
+                            const i = document.getElementById("contact");
+                            if (!i)
+                                return;
+                            const t = i.getBoundingClientRect()
+                              , d = window.innerHeight
+                              , l = t.top < d * .5 && t.bottom > d * .3 && t.top > -t.height * .5;
+                            if (a.forEach(n => n.classList.remove("active")),
+                            l) {
+                                const n = document.querySelector('nav a[href="/#contact"]');
+                                n && n.classList.add("active")
+                            } else
+                                e && e.classList.add("active")
+                        }
+                        , 50)
+                    }
+                    ),
+                    setTimeout( () => {
+                        const i = document.getElementById("contact");
+                        if (i) {
+                            const t = i.getBoundingClientRect()
+                              , d = window.innerHeight
+                              , l = t.top < d * .5 && t.bottom > d * .3 && t.top > -t.height * .5;
+                            if (a.forEach(n => n.classList.remove("active")),
+                            l) {
+                                const n = document.querySelector('nav a[href="/#contact"]');
+                                n && n.classList.add("active")
+                            } else
+                                e && e.classList.add("active")
+                        }
+                    }
+                    , 100)
+                } else
+                    u(void 0, !0);
+                window.addEventListener("popstate", () => {
+                    u(void 0, !0)
+                }
+                ),
+                document.body.style.opacity = "1"
+            }
+            );
+        </script>
+        <div class="relative w-full min-h-screen bg-[#101010]">
+            <div class="absolute inset-0 z-10">
+                <style>
+                    astro-island,astro-slot,astro-static-slot {
+                        display: contents
+                    }
+                </style>
+                <script>
+                    ( () => {
+                        var e = async t => {
+                            await (await t())()
+                        }
+                        ;
+                        (self.Astro || (self.Astro = {})).load = e;
+                        window.dispatchEvent(new Event("astro:load"));
+                    }
+                    )();
+                </script>
+                <script>
+                    ( () => {
+                        var A = Object.defineProperty;
+                        var g = (i, o, a) => o in i ? A(i, o, {
+                            enumerable: !0,
+                            configurable: !0,
+                            writable: !0,
+                            value: a
+                        }) : i[o] = a;
+                        var d = (i, o, a) => g(i, typeof o != "symbol" ? o + "" : o, a);
+                        {
+                            let i = {
+                                0: t => m(t),
+                                1: t => a(t),
+                                2: t => new RegExp(t),
+                                3: t => new Date(t),
+                                4: t => new Map(a(t)),
+                                5: t => new Set(a(t)),
+                                6: t => BigInt(t),
+                                7: t => new URL(t),
+                                8: t => new Uint8Array(t),
+                                9: t => new Uint16Array(t),
+                                10: t => new Uint32Array(t),
+                                11: t => 1 / 0 * t
+                            }
+                              , o = t => {
+                                let[l,e] = t;
+                                return l in i ? i[l](e) : void 0
+                            }
+                              , a = t => t.map(o)
+                              , m = t => typeof t != "object" || t === null ? t : Object.fromEntries(Object.entries(t).map( ([l,e]) => [l, o(e)]));
+                            class y extends HTMLElement {
+                                constructor() {
+                                    super(...arguments);
+                                    d(this, "Component");
+                                    d(this, "hydrator");
+                                    d(this, "hydrate", async () => {
+                                        var b;
+                                        if (!this.hydrator || !this.isConnected)
+                                            return;
+                                        let e = (b = this.parentElement) == null ? void 0 : b.closest("astro-island[ssr]");
+                                        if (e) {
+                                            e.addEventListener("astro:hydrate", this.hydrate, {
+                                                once: !0
+                                            });
+                                            return
+                                        }
+                                        let c = this.querySelectorAll("astro-slot")
+                                          , n = {}
+                                          , h = this.querySelectorAll("template[data-astro-template]");
+                                        for (let r of h) {
+                                            let s = r.closest(this.tagName);
+                                            s != null && s.isSameNode(this) && (n[r.getAttribute("data-astro-template") || "default"] = r.innerHTML,
+                                            r.remove())
+                                        }
+                                        for (let r of c) {
+                                            let s = r.closest(this.tagName);
+                                            s != null && s.isSameNode(this) && (n[r.getAttribute("name") || "default"] = r.innerHTML)
+                                        }
+                                        let p;
+                                        try {
+                                            p = this.hasAttribute("props") ? m(JSON.parse(this.getAttribute("props"))) : {}
+                                        } catch (r) {
+                                            let s = this.getAttribute("component-url") || "<unknown>"
+                                              , v = this.getAttribute("component-export");
+                                            throw v && (s += ` (export ${v})`),
+                                            console.error(`[hydrate] Error parsing props for component ${s}`, this.getAttribute("props"), r),
+                                            r
+                                        }
+                                        let u;
+                                        await this.hydrator(this)(this.Component, p, n, {
+                                            client: this.getAttribute("client")
+                                        }),
+                                        this.removeAttribute("ssr"),
+                                        this.dispatchEvent(new CustomEvent("astro:hydrate"))
+                                    }
+                                    );
+                                    d(this, "unmount", () => {
+                                        this.isConnected || this.dispatchEvent(new CustomEvent("astro:unmount"))
+                                    }
+                                    )
+                                }
+                                disconnectedCallback() {
+                                    document.removeEventListener("astro:after-swap", this.unmount),
+                                    document.addEventListener("astro:after-swap", this.unmount, {
+                                        once: !0
+                                    })
+                                }
+                                connectedCallback() {
+                                    if (!this.hasAttribute("await-children") || document.readyState === "interactive" || document.readyState === "complete")
+                                        this.childrenConnectedCallback();
+                                    else {
+                                        let e = () => {
+                                            document.removeEventListener("DOMContentLoaded", e),
+                                            c.disconnect(),
+                                            this.childrenConnectedCallback()
+                                        }
+                                          , c = new MutationObserver( () => {
+                                            var n;
+                                            ((n = this.lastChild) == null ? void 0 : n.nodeType) === Node.COMMENT_NODE && this.lastChild.nodeValue === "astro:end" && (this.lastChild.remove(),
+                                            e())
+                                        }
+                                        );
+                                        c.observe(this, {
+                                            childList: !0
+                                        }),
+                                        document.addEventListener("DOMContentLoaded", e)
+                                    }
+                                }
+                                async childrenConnectedCallback() {
+                                    let e = this.getAttribute("before-hydration-url");
+                                    e && await import(e),
+                                    this.start()
+                                }
+                                async start() {
+                                    let e = JSON.parse(this.getAttribute("opts"))
+                                      , c = this.getAttribute("client");
+                                    if (Astro[c] === void 0) {
+                                        window.addEventListener(`astro:${c}`, () => this.start(), {
+                                            once: !0
+                                        });
+                                        return
+                                    }
+                                    try {
+                                        await Astro[c](async () => {
+                                            let n = this.getAttribute("renderer-url")
+                                              , [h,{default: p}] = await Promise.all([import(this.getAttribute("component-url")), n ? import(n) : () => () => {}
+                                            ])
+                                              , u = this.getAttribute("component-export") || "default";
+                                            if (!u.includes("."))
+                                                this.Component = h[u];
+                                            else {
+                                                this.Component = h;
+                                                for (let f of u.split("."))
+                                                    this.Component = this.Component[f]
+                                            }
+                                            return this.hydrator = p,
+                                            this.hydrate
+                                        }
+                                        , e, this)
+                                    } catch (n) {
+                                        console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`, n)
+                                    }
+                                }
+                                attributeChangedCallback() {
+                                    this.hydrate()
+                                }
+                            }
+                            d(y, "observedAttributes", ["props"]),
+                            customElements.get("astro-island") || customElements.define("astro-island", y)
+                        }
+                    }
+                    )();
+                </script>
+                <astro-island uid="ZhNAWa" prefix="r2" component-url="/_astro/SplashCursor.g9Qj54sI.js" component-export="default" renderer-url="/_astro/client.DVxemvf8.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;SplashCursor&quot;,&quot;value&quot;:true}" await-children>
+                    <div class="fixed top-0 left-0 z-50 pointer-events-none w-full h-full">
+                        <canvas id="fluid" class="w-screen h-screen block"></canvas>
+                    </div>
+                    <!--astro:end-->
+                </astro-island>
+            </div>
+            <section class="relative z-20 w-full min-h-screen flex items-center justify-center text-[var(--white)] my-12 md:mt-0" id="home">
+                <div class="max-w-5xl mx-auto lg:my-36 md:my-0">
+                    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">Projects</h2>
+                    <h3 class="text-4xl md:text-5xl font-medium mb-8">
+                        <div class="text-white bg-clip-text inline-block animate-shine " style="background-image:linear-gradient(to right, #808080, #808080 45%, #fff 50%, #808080 55%, #808080 100%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation-duration:10s">AI Projects</div>
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="group">
+                            <a href="https://movico.vercel.app/" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/movico.BcUkbwrf_Zo0qAR.webp" alt="Movico" loading="lazy" decoding="async" fetchpriority="auto" width="1280" height="720" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">Movico</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">A Survey research project on movie-watching preferences, genre ratings, and cinema behaviors </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://github.com/1AyaNabil1/Movico" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://movico.vercel.app/" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a href="https://attention-is-all-you-need.onrender.com/" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/attention1.Ca7R6-fu_fBfV4.webp" alt="Attention Is All You Need" loading="lazy" decoding="async" fetchpriority="auto" width="4000" height="2250" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">Attention Is All You Need</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">Pure PyTorch implementation of the Transformer </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://github.com/1AyaNabil1/attention_is_all_you_need" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://attention-is-all-you-need.onrender.com/" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a href="https://www.swanexus.dev/" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/swan3.DYxqMdSl_Zm0z5s.webp" alt="SWAN Quote Generator" loading="lazy" decoding="async" fetchpriority="auto" width="1280" height="720" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">SWAN Quote Generator</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">Because sometimes, the right words can light the stars inside you </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://github.com/1AyaNabil1/Swan_Quote_Generator" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://www.swanexus.dev/" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a href="https://api.whatsapp.com/send/?phone=971586633824&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/3.CbZL7OMv_1snOsl.webp" alt="Maya AI Assistant" loading="lazy" decoding="async" fetchpriority="auto" width="1280" height="720" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">Maya AI Assistant</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">Your Marketing AI Assistant </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=971586633824&text&type=phone_number&app_absent=0" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=971586633824&text&type=phone_number&app_absent=0" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a href="https://github.com/Leap-Smart-Solutions/Leap-Smart-Control-System" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/1.C0g9AqcV_ZUSXhd.webp" alt="LEAP: Smart Solutions" loading="lazy" decoding="async" fetchpriority="auto" width="1280" height="720" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">LEAP: Smart Solutions</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">Empowering Intelligent Home Automation with Advanced AI, IoT, and Seamless User Experience </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://github.com/Leap-Smart-Solutions/Leap-Smart-Control-System" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://github.com/Leap-Smart-Solutions/Leap-Smart-Control-System" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a href="https://vloomeo.ashraf.zone/" target="_blank" rel="noopener noreferrer" class="block">
+                                <div class="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 mb-4">
+                                    <img src="/_astro/2.DjJehqq3_Z1juQyo.webp" alt="Vloomeo: Scene Generator" loading="lazy" decoding="async" fetchpriority="auto" width="4000" height="2250" class="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300">
+                                </div>
+                                <div class="flex items-center px-3">
+                                    <div class="flex-grow">
+                                        <h4 class="text-2xl font-semibold">Vloomeo: Scene Generator</h4>
+                                        <span class="py-1 text-sm text-[var(--white-icon)]">Transform your stories into stunning visual storyboards with the power of AI. </span>
+                                    </div>
+                                    <div class="flex gap-2 ml-auto">
+                                        <a target="_blank" href="https://vloomeo.ashraf.zone/" aria-label="GitHub" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M24 12L18.3431 17.6569L16.9289 16.2426L21.1716 12L16.9289 7.75736L18.3431 6.34315L24 12ZM2.82843 12L7.07107 16.2426L5.65685 17.6569L0 12L5.65685 6.34315L7.07107 7.75736L2.82843 12ZM9.78845 21H7.66009L14.2116 3H16.3399L9.78845 21Z"></path>
+                                            </svg>
+                                        </a>
+                                        <a target="_blank" href="https://vloomeo.ashraf.zone/" aria-label="Preview" class="size-14 flex justify-center items-center text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-7">
+                                                <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- <Analytics /> -->
+    </body>
+</html>
+<!-- COMMENTED OUT - Folder grid structure (will be restored later)
+<section
+    class="w-full min-h-screen bg-[#101010] flex items-center justify-center text-[var(--white)] my-12 md:mt-0"
+    id="home"
+>
+    <div class="absolute inset-0 z-10">
+        <SplashCursor client:load />
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-48 pt-8 sm:pt-12 z-10">
+        {
+            folders.map((folder) => (
+                <Folder
+                    client:load
+                    size={2}
+                    color={folder.color}
+                    images={folder.images}
+                    icon={folder.icon}
+                    label={folder.label}
+                    className="custom-folder w-full"
+                    link={folder.link}
+                />
+            ))
+        }
+    </div>
+</section>
+-->
